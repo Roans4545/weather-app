@@ -9,7 +9,7 @@ form.addEventListener('click' , (e)=>{
 
     loc.innerHTML = 'Loading...';
     temp.innerHTML = ''
-    fetch('http://localhost:3000/weather?weather=' + location).then((response)=>{
+    fetch('/weather?weather=' + location).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
                loc.innerHTML = data.error

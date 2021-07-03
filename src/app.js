@@ -5,7 +5,7 @@ const geocode = require('./utils/geocode');
 const forcast = require('./utils/forecast');
 const forecast = require('./utils/forecast');
 const app = express();
-
+const port = process.env.PORT || 3000
 // it defines path of the directory 
 let pathName = path.join(__dirname , '../public');
 let viewPath = path.join(__dirname , '../templates/views');
@@ -74,6 +74,6 @@ app.get('*',(req,res)=>{
     res.send('My 404 Page')
 })
 
-app.listen(3000,()=>{
-    console.log('server has started');
+app.listen(port,()=>{
+    console.log('server has started in port');
 })
