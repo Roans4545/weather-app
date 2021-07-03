@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg , #667db6 , #0082c8 , #0082c8 , #667db6);
+}
+.name{
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 6px 0px black;
+}
+
+.aboutme {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #fff700;
+    font-size: 17px;
+    text-shadow: 4px 2px black;
+}
+
+.links ul{
+    display: flex;
+list-style: none;
+
+}
+.links{
+    margin-top: 20px;
+display: flex;
+    width: 98.89vw;
+    justify-content: center;
+
+}
+.links ul li a{
+margin:0px 16px;
+text-decoration: none;
+color: #00000042;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.footer{
+    color: yellow;
+    text-shadow: 3px 1px black;
+    width: 99%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+}
+
+form{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input{
+    width: 226px;
+    height: 31px;
+    text-align: center;
+    border: 2px solid yellow;
+    color: yellow;
+    background: #0000004a;
+}
+
+.submit{
+    border: 3px solid yellow;
+    margin-top: 12px;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.submit:hover{
+    transition: all 0.5s;
+    width: 109px;
+    letter-spacing: 5px;
+    color: yellow;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.hidden {
+    width: 71%;
+    margin: auto;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 141px;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid yellow;
+}
+
+.loc{
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.temp{
+    font-size: 25px;
+margin-top: 10px;
+color: yellow;
+font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .name{
+        
+        
+        font-size: 31px;
+    }
+    .aboutme{
+        font-size: 14px;
+    }
+    .footer{
+        font-size: 22px;
+    }
+
+    .links ul li a {
+        font-size: 18px;
+    }
+  }
+
