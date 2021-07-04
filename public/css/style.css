@@ -116,13 +116,13 @@ form input{
 }
 
 .loc{
-    font-size: 30px;
+    font-size: 22px;
     color: yellow;
     font-weight: bold;
 }
 
 .temp{
-    font-size: 25px;
+    font-size: 12px;
 margin-top: 10px;
 color: yellow;
 font-weight: bold;
@@ -145,6 +145,12 @@ font-weight: bold;
 
     .links ul li a {
         font-size: 18px;
+    }.temp{
+        font-size: 11px;
+    }.loc{
+        font-size: 15px;
+    }.hidden{
+        width: 92%;
     }
   }
 
